@@ -16,10 +16,10 @@ function showData(){
 
     let html = '';
     usersList.forEach((user, index) => {    
-        html += `<div id="tabla-usuarios">
-                    <div class="col-xs-12 col-md-6 col-lg-3">${user.name}</div>
-                    <div class="col-xs-12 col-md-6 col-lg-3">${user.email}</div>
-                    <div class="col-xs-12 col-md-6 col-lg-3">${user.address}<button onclick="deleteData(${index})">Eliminar</button><button onclick="editData(${index})">Editar</button></div>
+        html += `<div id="tabla-usuarios" class="row g-3">
+                    <div class="col-xs-12 col-md-6 col-lg-4">${user.name}</div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">${user.email}</div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">${user.address}<button onclick="deleteData(${index})">Eliminar</button><button onclick="editData(${index})">Editar</button></div>
                  </div>`
     });
     document.querySelector('#tabla-general').innerHTML = html;
