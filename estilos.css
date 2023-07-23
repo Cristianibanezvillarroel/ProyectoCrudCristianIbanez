@@ -63,9 +63,15 @@ jumbotron div {
 #tabla-encabezado {
     display: flex;
     flex-direction: row;
+    height: 40px;
+    background-color: rgb(235, 163, 29);
+    width: 100%;
+
 }
 
-tbody div {
+
+#tabla-usuarios {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
 }
