@@ -1,0 +1,3 @@
+# ProyectoCrudCristianIbanez
+Proyecto Crud Registro Usuarios
+En este proyecto se utilizo un formulario con gestion de filas y columnas en base a bootstrap. Tambien en la creacion del encabezado de la lista de usuarios se trabajo con bootstrap acompañado de flex para el manejo de la orientacion de los contenedores interiores. Algo equivalente se hizo con la tabla de usuarios en el despliegue de la lista. También se ocupó programación tanto funcional como orientada a objetos en la construccion de la lista de usuarios. En particular, la agregacion de usuarios utiliza la clase creada Usuario. Finalmente para la programacion de la eliminacion de un registro se utilizo la sintaxis splice.
