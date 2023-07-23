@@ -20,7 +20,8 @@ function showData(){
                     <div class="col-xs-12 col-md-6 col-lg-4">${user.name}</div>
                     <div class="col-xs-12 col-md-6 col-lg-4">${user.email}</div>
                     <div class="col-xs-12 col-md-6 col-lg-4">${user.address}<button onclick="deleteData(${index})">Eliminar</button><button onclick="editData(${index})">Editar</button></div>
-                 </div>`
+                 </div>
+                 <hr>`
     });
     document.querySelector('#tabla-general').innerHTML = html;
 }
