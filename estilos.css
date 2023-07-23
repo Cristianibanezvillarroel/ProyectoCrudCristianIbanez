@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@300&display=swap');
+
+header {
+    background-color: rgb(17, 0, 255);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header img {
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+header div nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    
+}
+
+nav a:hover{
+    color: black;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+}
+
+jumbotron {
+    display: flex;
+    background-color: rgb(218, 213, 230);
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+.text-jumbotron {
+    color: rgb(34, 33, 33);
+    font-family: 'Nunito', sans-serif;
+}
+
+jumbotron div {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#tabla-encabezado {
+    display: flex;
+    flex-direction: row;
+}
+
+tbody div {
+    display: flex;
+    flex-direction: row;
+}
