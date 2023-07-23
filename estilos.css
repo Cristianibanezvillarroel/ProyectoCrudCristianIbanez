@@ -66,12 +66,16 @@ jumbotron div {
     height: 40px;
     background-color: rgb(235, 163, 29);
     width: 100%;
+    display: grid;
+	grid-template-columns: 33% 33% 34%;
+
 
 }
-
 
 #tabla-usuarios {
     display: flex;
     flex-direction: column;
     width: 100%;
+    display: grid;
+	grid-template-columns: 33% 33% 34%;
 }
